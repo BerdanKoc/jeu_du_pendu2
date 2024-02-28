@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pendu</title>
+</head>
+<body>
+    <h1>Trouver le mot caché</h1>
+    <div id="les_boutons_ecran">
+
+    </div>
+
+    <div id="lettre_incorrect">
+
+    </div>
+
+
+
+    <div id="le_mot_aleatoire">
+    </div>
+
+    <div id="les_lettres_deviner">
+    </div>
+
+    <div id="les_checkboxes">
+        <input type="checkbox" id="checkbox1" disabled> Erreur 1
+        <input type="checkbox" id="checkbox2" disabled> Erreur 2
+        <input type="checkbox" id="checkbox3" disabled> Erreur 3
+        <input type="checkbox" id="checkbox4" disabled> Erreur 4
+        <input type="checkbox" id="checkbox5" disabled> Erreur 5
+        <input type="checkbox" id="checkbox6" disabled> Erreur 6
+      </div>
+      
+      <button onclick="recommencerPartie()">Recommencer</button>
+
+      <div id="popup" class="popup">
+        <div class="popup-contenu">
+          <p id="message-fin"></p>
+          <button onclick="recommencerPartie()">Recommencer</button>
+        </div>
+      </div>
+      
+
+<script src="script.js"></script>
+</body>
+</html>
